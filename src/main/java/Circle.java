@@ -1,16 +1,10 @@
-public class Circle extends AbstractShape  {
-
-  /*  AbstractShape as = new AbstractShape() {
-        public double area() {
-            return 0;
-        }
-
-        public double perimeter() {
-            return 0;
-        }
-    }*/
+public class Circle {
 
     private double radius;
+
+    private AbstractShape as;
+
+    
 
     public Circle(double radius) {
         this.radius = radius;

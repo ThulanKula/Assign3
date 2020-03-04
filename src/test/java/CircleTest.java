@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class CircleTest {
 
-    Circle circle;
+    private Circle circle;
 
     @Before
     public void setUp() throws Exception {
